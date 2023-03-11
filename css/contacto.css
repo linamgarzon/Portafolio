@@ -1,0 +1,14 @@
+.contacto{
+    background: #E9E3FF;
+    display: flex;
+    transition: background 3s;
+}
+.contacto:hover{
+    background-color: #FFD9F5;
+}
+@media screen and (max-width: 950px){
+    .contacto{
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+}

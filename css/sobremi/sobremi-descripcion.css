@@ -1,0 +1,15 @@
+.sobremi__descripcion{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #464646;
+    padding-right: 20rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+    .sobremi__descripcion{
+        width: 110%;
+        padding-right: 2rem;
+    }
+    
+}

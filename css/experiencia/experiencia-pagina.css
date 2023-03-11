@@ -1,0 +1,11 @@
+.experiencia__pagina{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 450px){
+    .experiencia__pagina{
+        display: block;
+        align-items: center;
+    }
+    
+}

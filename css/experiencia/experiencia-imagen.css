@@ -1,0 +1,17 @@
+.experiencia__imagen{
+    width: 400px;
+    height: 200px;
+    padding: 2rem 3rem 2rem 3rem;
+    background: #E9E3FF;
+    box-shadow: 0 5px 10px #6C3E8D;
+    border-radius: .5rem;
+}
+@media screen and (max-width: 450px){
+    .experiencia__imagen{
+        width: 80%;
+        height: 80%;
+        padding: 1rem 2rem;
+        margin-bottom: 2rem;
+    }
+    
+}

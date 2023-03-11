@@ -1,0 +1,8 @@
+.experiencia{
+    justify-content: left;
+}
+@media screen and (max-width: 950px){
+    .experiencia{
+        justify-content: center;
+    }    
+}

@@ -1,0 +1,13 @@
+.menu__link{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+    color: #464646;
+    font-size: 1rem;
+}
+.menu__link--activo{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color:#464646
+}

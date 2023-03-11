@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    background: #F5F5F5;
+    width: 90%;
+}
+@media screen and (max-width: 950px){
+    .banner{
+        padding: 3rem;
+    } 
+}
+@media screen and (max-width: 450px){
+    .banner{
+        display: block;
+        padding: 1.3rem;
+    }    
+}

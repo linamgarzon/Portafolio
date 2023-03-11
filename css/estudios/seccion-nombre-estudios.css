@@ -1,0 +1,9 @@
+.seccion__nombre--estudios{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:.8rem;
+    color: #464646;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+}

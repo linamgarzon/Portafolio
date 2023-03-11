@@ -1,0 +1,15 @@
+.contacto__formulario{
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 5px 10px #464646;
+    text-align: center;
+    padding: 2rem;
+    display: grid;
+    gap: 1.5rem;
+}
+@media screen and (max-width: 450px){
+    .contacto__formulario{
+        width: 60%;
+        margin: 4rem;
+    }    
+}

@@ -1,0 +1,40 @@
+.banner__presentacion{
+    padding-right: 5rem;
+    text-align: left;
+}
+.presentacion{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #464646;
+    line-height: 3rem;
+    padding-bottom: 3rem;
+}
+.descripcion{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #464646;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 950px){
+    .banner__presentacion{
+        width: calc(120%/2);
+        padding-right: 0;
+    }
+    .presentacion{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .banner__presentacion{
+        width: calc(200%/2);
+        padding-right: 0;
+    }
+    .presentacion{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding-bottom: 1rem;
+    }
+}

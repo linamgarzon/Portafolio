@@ -1,0 +1,28 @@
+.banner__fotografia{
+    width: 400px;
+    height: 400px;
+    clip-path: circle(40% at center);
+    margin-top: -2%;
+}
+@media screen and (max-width: 950px){
+    .banner__fotografia{
+        width: 30%;
+        height: 30%;
+    }
+    
+}
+@media screen and (max-width: 950px){
+    .banner__fotografia{
+        width: 30%;
+        height: 30%;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    .banner__fotografia{
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
+    }
+    
+}

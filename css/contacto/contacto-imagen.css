@@ -1,0 +1,11 @@
+.contacto__imagen{
+    width: 400px;
+    height: 400px;
+    padding: 10rem;
+    padding-top: 7rem;
+}
+@media screen and (max-width: 950px){
+    .contacto__imagen{
+        display: none;
+    }    
+}

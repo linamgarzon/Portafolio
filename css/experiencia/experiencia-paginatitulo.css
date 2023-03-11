@@ -1,0 +1,16 @@
+.experiencia__paginatitulo{
+    padding-left: 5rem;
+    text-align: left;
+}
+@media  screen and (max-width: 950px) {
+    .experiecia__paginatitulo{
+        justify-content: center;
+    }
+    
+}
+@media  screen and (max-width: 450px) {
+    .experiecia__paginatitulo{
+        justify-content: center;
+    }
+    
+}

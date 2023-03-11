@@ -1,0 +1,17 @@
+colores_de_icono: #6C3E8D
+color_fondo: #E9E3FF
+.input-padron:focus + .contacto__nombre--letras, .input-padron:not(:placeholder-shown) + .contacto__nombre--letras {
+    transform: translateY(-16px) scale(.7);
+    transform-origin: left top;
+    color: #6C3E8D;
+}
+.input-padron:focus{
+    border-bottom: 1px solid #6C3E8D;
+}
+    top: 0;
+    left: 10px;
+    transition: translateY(10px);
+    transition: transform .5s, color .5s;
+     outline: none;
+    border: none;
+    cursor: text;

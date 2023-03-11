@@ -1,0 +1,11 @@
+.formato__estudios {
+    display: block;
+    background: #E9E3FF;
+    padding: .5rem 5rem 5rem 5rem;
+    text-align: center;
+    transition: background 3s;
+}
+
+.formato__estudios:hover {
+    background: #FFD9F5;
+}

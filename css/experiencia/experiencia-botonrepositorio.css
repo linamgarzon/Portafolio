@@ -1,0 +1,13 @@
+.experiencia__bottonrepositorio{
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    background: #F5F5F5;
+    border: .1rem solid #6C3E8D;
+    padding: .5rem;
+    color: #6C3E8D;
+    cursor: pointer;
+    transition: font-size .5s;
+}
+.experiencia__bottonrepositorio:hover{
+    font-size:  1rem;
+}

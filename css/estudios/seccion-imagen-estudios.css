@@ -1,0 +1,9 @@
+.seccion__imagen--estudios{
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    padding: 5rem 4rem 5rem 4rem;
+    background: white;
+    border-radius: .5rem;
+    box-shadow: 0 5px 10px #464646;
+}

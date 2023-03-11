@@ -1,0 +1,14 @@
+.banner__items{
+    list-style: none;
+    padding: 2rem 1rem 2rem 1rem;
+}
+.imagen__items{
+    width: 20px;
+    height: 20px;
+    margin-right: .5rem;
+}
+@media screen and (max-width: 450px){
+    .banner__items{
+        padding: 1rem 0 1rem 0;
+    }    
+}

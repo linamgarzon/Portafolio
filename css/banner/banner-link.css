@@ -1,0 +1,12 @@
+.banner__link{
+    display: flex;
+    padding-right: 5rem;
+    text-decoration: none;
+    color: #464646;
+}
+@media screen and (max-width: 450px) {
+    .banner__link{
+        display: block;
+        padding: 1rem;
+    }
+}

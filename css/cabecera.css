@@ -1,0 +1,17 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem 2rem 5rem;
+    background: #F5F5F5;
+}
+.nombre{
+    font-family: 'Raleway', sans-serif;
+    font-size:.8rem;
+    color: #464646;
+    font-size: 1rem;
+}
+@media screen and (max-width: 950px){
+    .cabecera{
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.formato__varios{
+    display: flex;
+    justify-content: space-around;
+    padding:.5rem 0 1rem 0;
+}
+@media  screen and (max-width: 950px) {
+    .formato__varios{
+        flex-wrap: wrap;
+        gap:2.5rem;
+    }
+    
+}

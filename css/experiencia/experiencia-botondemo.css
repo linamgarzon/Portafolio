@@ -1,0 +1,14 @@
+.experiencia__bottondemo{
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    background: #6C3E8D;
+    padding: .6rem;
+    color: white;
+    border: none;
+    margin-left: .8rem;
+    cursor: pointer;
+    transition: font-size .5s;
+}
+.experiencia__bottondemo:hover{
+    font-size: 1rem;
+}

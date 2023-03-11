@@ -1,0 +1,57 @@
+.contacto__nombre--letras{
+    color:#464646;
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    transform: translateY(3px);
+    transition: transform .5s, color .3s;
+
+}
+textarea{
+    resize: none;
+}
+.input-padron:focus + .contacto__nombre--letras, .input-padron:not(:placeholder-shown) + .contacto__nombre--letras {
+    transform: translateY(-16px) scale(.7);
+    transform-origin: left top;
+    color: #6C3E8D;
+}
+.input-padron:focus{
+    border-bottom: 1px solid #6C3E8D;
+}
+.input-padron{
+    width: 100%;
+    color: #464646;
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5rem;
+    width: 20rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #6C3E8D;;
+}
+
+.enviar{
+    font-family: 'Raleway', sans-serif;
+    background: #6C3E8D;
+    font-size: .8rem;
+    color: white;
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    border: none;
+    transition: font-size .5s;
+}
+.enviar:hover{
+    font-size: 1rem;
+}
+@media screen and (max-width: 450px){
+    .contacto__nombre--letras{
+        left: 15px;
+
+    }
+    
+}

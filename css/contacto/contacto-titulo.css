@@ -1,0 +1,12 @@
+.contacto__titulo{
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    padding-top: 3rem;
+}
+@media screen and (max-width: 450px) {
+    .contacto__titulo{
+        text-align: center;
+    }
+    
+}
